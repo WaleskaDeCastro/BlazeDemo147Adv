@@ -19,6 +19,16 @@ export default class ReservePage {
 
     }
 
+    async verificar_titulo(mesagem_origem_destino){
+        await this.page.waitForSelector(this.titulo)
+        const tituloSecao = await this.page.textContent(this.titulo)
+
+        if (!tituloSecao.includes(mesagem_origem_destino)) {
+            throw new Error('Titulo da pagina Reserve ausente ou diferente do esperado')
+        }
+
+    }
+
     async verificar_url(){
         await this.page.waitForSelector(this.titulo)
         //const tituloSecao = await this.page.textContent(this.titulo)
