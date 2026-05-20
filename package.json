@@ -1,20 +1,24 @@
 {
   "name": "blazedemo147adv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de automação web com Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test", 
+    "test": "npx playwright test",
     "test:bdd": "cucumber-js features/**/*.feature --require steps/**/*.steps.js --require support/**/*.js --format json:reports/cucumber_report.json",
-    "report": "node generate-report.js"
+    "test:bdd:headed": "cross-env HEADLESS=false npm run test:bdd",
+    "report": "node generate_report.js"
   },
-  "keywords": [],
+  "keywords": [
+    "playwright",
+    "cucumber"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.5.2",
+    "cross-env": "^10.1.0",
     "cucumber-html-reporter": "^7.2.0"
   },
   "dependencies": {
