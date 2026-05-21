@@ -1,4 +1,5 @@
-export default class PurchasePage {
+//export default class PurchasePage {
+class PurchasePage {
 
     constructor(page) {
         this.page = page;
@@ -27,4 +28,6 @@ export default class PurchasePage {
         await this.page.locator(this.btn_purchase_flight).click()
     }
 
-}
+} 
+
+module.exports = PurchasePage;

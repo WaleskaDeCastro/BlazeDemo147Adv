@@ -1,4 +1,5 @@
- export default class ConfirmationPage {
+ //export default class ConfirmationPage {
+class ConfirmationPage {
 
     constructor(page) { 
         this.page = page
@@ -7,3 +8,5 @@
         this.preco = 'Amount '      
     }
  }
+
+ module.exports = ConfirmationPage;

@@ -1,7 +1,7 @@
 //export default class HomePage { // padrão para type = module
 class HomePage {                 // padrão para type = commonjs
     //Construtor com o mapeamento dos elementos  
-    constructor(page) {
+    constructor(page){
         this.page = page; // o objeto do PW interno recebe o objeto do PW externo
         this.titulo = 'h1'
         this.origem = '[ name="fromPort"]'
@@ -10,7 +10,7 @@ class HomePage {                 // padrão para type = commonjs
         this.url = 'https://www.blazedemo.com'
     }
 
-}  //Mapear as ações  
+    //Mapear as ações  
     async selecionar_origem(cidade_origem){
         await this.page.locator(this.origem).selectOption(cidade_origem)
     }
@@ -38,4 +38,6 @@ class HomePage {                 // padrão para type = commonjs
             throw new Error('Titulo na Home ausente ou diferente do esperado')
         }
     }
-    module.exports = HomePage // padrão para type = commonjs 
+}
+
+module.exports = HomePage; // padrão para type = commonjs 

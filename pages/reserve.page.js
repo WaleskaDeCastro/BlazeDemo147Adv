@@ -1,4 +1,5 @@
-export default class ReservePage {
+//export default class ReservePage {
+class ReservePage {
 
     constructor(page) {
         this.page = page
@@ -38,3 +39,6 @@ export default class ReservePage {
         }       
         
     }
+}
+
+module.exports = ReservePage;

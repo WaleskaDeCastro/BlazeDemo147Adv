@@ -10,12 +10,24 @@
         "name": "Compra com Sucesso",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 695299,
+              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Dado ",
             "line": 4,
             "name": "que estou no site Blazedemo",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -24,8 +36,11 @@
             "keyword": "Quando ",
             "line": 5,
             "name": "seleciono a origem como \"São Paolo\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:16"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -43,9 +58,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 7,
-            "name": "clico no botao \"Find Flights\"",
+            "name": "clico no botao",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:34"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -54,8 +72,11 @@
             "keyword": "Entao ",
             "line": 8,
             "name": "verifico o texto \" Flights from São Paolo to London:\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:41"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -63,9 +84,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 9,
-            "name": "se a URL contem \"reserve\"",
+            "name": "verifico se a URL contem \"reserve\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -84,8 +108,11 @@
             "keyword": "Entao ",
             "line": 11,
             "name": "verifico se a URL contem \"purchase\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -94,8 +121,11 @@
             "keyword": "Quando ",
             "line": 12,
             "name": "preencho o nome como \"Waleska Castro\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:56"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -104,8 +134,11 @@
             "keyword": "E ",
             "line": 13,
             "name": "seleciono a bandeira do cartão como \"amex\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:61"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -114,8 +147,11 @@
             "keyword": "E ",
             "line": 14,
             "name": "marco a opçao \"Remmember me\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:66"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -124,8 +160,11 @@
             "keyword": "E ",
             "line": 15,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -144,8 +183,11 @@
             "keyword": "E ",
             "line": 17,
             "name": "se exibe a mensagem de agradecimento \"Thank you for your purchase today!\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:78"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -154,9 +196,20 @@
             "keyword": "E ",
             "line": 18,
             "name": "se contem a informaçao \"Amount\" com \"555 USD\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:83"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 348099
             }
           }
         ],
@@ -166,17 +219,29 @@
       {
         "description": "",
         "id": "comprar-de-passagem;compra-com-sucesso-ddt",
-        "keyword": "Cenario",
+        "keyword": "Esquema do Cenario",
         "line": 39,
         "name": "Compra com Sucesso DDT",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 207399,
+              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+            }
+          },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
             "name": "que estou no site Blazedemo",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -185,8 +250,11 @@
             "keyword": "Quando ",
             "line": 22,
             "name": "seleciono a origem como \"São Paolo\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:16"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -205,8 +273,11 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -215,8 +286,11 @@
             "keyword": "Entao ",
             "line": 25,
             "name": "verifico o texto Flights from \"São Paolo\" to \"London\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:92"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -224,9 +298,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "se a URL contem \"reserve\"",
+            "name": "verifico se a URL contem \"reserve\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -245,8 +322,11 @@
             "keyword": "Entao ",
             "line": 28,
             "name": "verifico se a URL contem \"purchase\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -255,8 +335,11 @@
             "keyword": "Quando ",
             "line": 29,
             "name": "preencho o nome como \"Charlie Brown\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:56"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -265,8 +348,11 @@
             "keyword": "E ",
             "line": 30,
             "name": "seleciono a bandeira do cartão como \"Visa\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:61"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -275,8 +361,11 @@
             "keyword": "E ",
             "line": 31,
             "name": "marco a opçao \"Remmember me\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:66"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -285,8 +374,11 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -305,8 +397,11 @@
             "keyword": "E ",
             "line": 34,
             "name": "se exibe a mensagem de agradecimento \"Thank you for your purchase today!\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:78"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -315,9 +410,20 @@
             "keyword": "E ",
             "line": 35,
             "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:83"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195499
             }
           }
         ],
@@ -327,17 +433,29 @@
       {
         "description": "",
         "id": "comprar-de-passagem;compra-com-sucesso-ddt",
-        "keyword": "Cenario",
+        "keyword": "Esquema do Cenario",
         "line": 40,
         "name": "Compra com Sucesso DDT",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 285300,
+              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+            }
+          },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
             "name": "que estou no site Blazedemo",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -346,8 +464,11 @@
             "keyword": "Quando ",
             "line": 22,
             "name": "seleciono a origem como \"Portland\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:16"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -366,8 +487,11 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -376,8 +500,11 @@
             "keyword": "Entao ",
             "line": 25,
             "name": "verifico o texto Flights from \"Portland\" to \"Dublin\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:92"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -385,9 +512,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "se a URL contem \"reserve\"",
+            "name": "verifico se a URL contem \"reserve\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -406,8 +536,11 @@
             "keyword": "Entao ",
             "line": 28,
             "name": "verifico se a URL contem \"purchase\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -416,8 +549,11 @@
             "keyword": "Quando ",
             "line": 29,
             "name": "preencho o nome como \"Harry Potter\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:56"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -426,8 +562,11 @@
             "keyword": "E ",
             "line": 30,
             "name": "seleciono a bandeira do cartão como \"American Express\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:61"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -436,8 +575,11 @@
             "keyword": "E ",
             "line": 31,
             "name": "marco a opçao \"Remmember me\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:66"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -446,8 +588,11 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -466,8 +611,11 @@
             "keyword": "E ",
             "line": 34,
             "name": "se exibe a mensagem de agradecimento \"Thank you for your purchase today!\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:78"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -476,9 +624,20 @@
             "keyword": "E ",
             "line": 35,
             "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:83"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186000
             }
           }
         ],
@@ -488,17 +647,29 @@
       {
         "description": "",
         "id": "comprar-de-passagem;compra-com-sucesso-ddt",
-        "keyword": "Cenario",
+        "keyword": "Esquema do Cenario",
         "line": 41,
         "name": "Compra com Sucesso DDT",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 153599,
+              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+            }
+          },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
             "name": "que estou no site Blazedemo",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -507,8 +678,11 @@
             "keyword": "Quando ",
             "line": 22,
             "name": "seleciono a origem como \"Boston\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:16"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -527,8 +701,11 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -537,8 +714,11 @@
             "keyword": "Entao ",
             "line": 25,
             "name": "verifico o texto Flights from \"Boston\" to \"New York\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:92"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -546,9 +726,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "se a URL contem \"reserve\"",
+            "name": "verifico se a URL contem \"reserve\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -567,8 +750,11 @@
             "keyword": "Entao ",
             "line": 28,
             "name": "verifico se a URL contem \"purchase\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -577,8 +763,11 @@
             "keyword": "Quando ",
             "line": 29,
             "name": "preencho o nome como \"John Smith\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:56"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -586,9 +775,12 @@
             "arguments": [],
             "keyword": "E ",
             "line": 30,
-            "name": "seleciono a bandeira do cartão como \"Dinner's Club\"",
+            "name": "seleciono a bandeira do cartão como \"Diner's Club\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:61"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -597,8 +789,11 @@
             "keyword": "E ",
             "line": 31,
             "name": "marco a opçao \"Remmember me\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:66"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -607,8 +802,11 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:27"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -627,8 +825,11 @@
             "keyword": "E ",
             "line": 34,
             "name": "se exibe a mensagem de agradecimento \"Thank you for your purchase today!\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:78"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -637,9 +838,20 @@
             "keyword": "E ",
             "line": 35,
             "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:83"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175200
             }
           }
         ],

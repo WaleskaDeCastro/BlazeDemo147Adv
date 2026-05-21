@@ -38,4 +38,4 @@ Funcionalidade: Comprar de Passagem
         | origem     | destino  | voo   | companhia      | nome          | bandeira            | preco |
         | São Paolo  | London   | 9696  | Aer Lingus     | Charlie Brown | Visa                | 555   |
         | Portland   | Dublin   | 12    | Virgin America | Harry Potter  | American Express    | 555   |
-        | Boston     | New York | 4346  | Lufthansa      | John Smith    | Dinner's Club       | 555   |
+        | Boston     | New York | 4346  | Lufthansa      | John Smith    | Diner's Club        | 555   |
