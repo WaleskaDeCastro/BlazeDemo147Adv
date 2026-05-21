@@ -13,9 +13,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 695299,
-              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+              "status": "passed",
+              "duration": 186786799
             }
           },
           {
@@ -27,8 +26,8 @@
               "location": "steps\\comprar_passagem.steps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1224299399
             }
           },
           {
@@ -40,18 +39,21 @@
               "location": "steps\\comprar_passagem.steps.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9821399
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 6,
-            "name": "o destino como \"London\"",
+            "name": "seleciono o destino como \"London\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 10004199
             }
           },
           {
@@ -63,57 +65,60 @@
               "location": "steps\\comprar_passagem.steps.js:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 372652500
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 8,
-            "name": "verifico o texto \" Flights from São Paolo to London:\"",
+            "name": "verifico o texto \"Flights from São Paolo to London:\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:41"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 58062500
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 9,
-            "name": "verifico se a URL contem \"reserve\"",
+            "name": "verifico se a url contem \"reserve\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7193300
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 10,
-            "name": "selecino o voo\"9696\" da companhia \"Aer Lingus\"",
+            "name": "seleciono o voo \"9696\" da companhia \"Aer Lingus\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:51"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 371865400
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 11,
-            "name": "verifico se a URL contem \"purchase\"",
+            "name": "verifico se a url contem \"purchase\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 35711999
             }
           },
           {
@@ -125,34 +130,34 @@
               "location": "steps\\comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7814600
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 13,
-            "name": "seleciono a bandeira do cartão como \"amex\"",
+            "name": "seleciono a bandeira do cartao como \"amex\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:61"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9069700
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 14,
-            "name": "marco a opçao \"Remmember me\"",
+            "name": "marco a opcao \"Remmember me\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 38484499
             }
           },
           {
@@ -164,18 +169,21 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 347182800
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 16,
-            "name": "cerifico se a URL contem \"confirmation\"",
+            "name": "verifico se a url contem \"confirmation\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 30912800
             }
           },
           {
@@ -187,21 +195,21 @@
               "location": "steps\\comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3406500
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 18,
-            "name": "se contem a informaçao \"Amount\" com \"555 USD\"",
+            "name": "se contem a informacao \"Amount\" como \"555 USD\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:83"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6258900
             }
           },
           {
@@ -209,7 +217,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 348099
+              "duration": 65223099
             }
           }
         ],
@@ -227,9 +235,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 207399,
-              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+              "status": "passed",
+              "duration": 171846499
             }
           },
           {
@@ -241,8 +248,8 @@
               "location": "steps\\comprar_passagem.steps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1083349099
             }
           },
           {
@@ -254,18 +261,21 @@
               "location": "steps\\comprar_passagem.steps.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6498499
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 23,
-            "name": "o destino como \"London\"",
+            "name": "seleciono o destino como \"London\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 8127199
             }
           },
           {
@@ -277,8 +287,8 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 349169100
             }
           },
           {
@@ -290,44 +300,47 @@
               "location": "steps\\comprar_passagem.steps.js:92"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 45959300
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "verifico se a URL contem \"reserve\"",
+            "name": "verifico se a url contem \"reserve\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1964999
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 27,
-            "name": "selecino o voo\"9696\" da companhia \"Aer Lingus\"",
+            "name": "seleciono o voo \"9696\" da companhia \"Aer Lingus\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:51"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 361342099
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 28,
-            "name": "verifico se a URL contem \"purchase\"",
+            "name": "verifico se a url contem \"purchase\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 41334399
             }
           },
           {
@@ -339,34 +352,34 @@
               "location": "steps\\comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7103799
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 30,
-            "name": "seleciono a bandeira do cartão como \"Visa\"",
+            "name": "seleciono a bandeira do cartao como \"Visa\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:61"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8591300
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 31,
-            "name": "marco a opçao \"Remmember me\"",
+            "name": "marco a opcao \"Remmember me\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 38755099
             }
           },
           {
@@ -378,18 +391,21 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 343240199
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 33,
-            "name": "cerifico se a URL contem \"confirmation\"",
+            "name": "verifico se a url contem \"confirmation\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 44237799
             }
           },
           {
@@ -401,21 +417,21 @@
               "location": "steps\\comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2872400
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 35,
-            "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "name": "se contem a informacao \"Amount\" como \"555\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:83"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3478799
             }
           },
           {
@@ -423,7 +439,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 195499
+              "duration": 49718200
             }
           }
         ],
@@ -441,9 +457,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 285300,
-              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+              "status": "passed",
+              "duration": 159508799
             }
           },
           {
@@ -455,8 +470,8 @@
               "location": "steps\\comprar_passagem.steps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1075438899
             }
           },
           {
@@ -468,18 +483,21 @@
               "location": "steps\\comprar_passagem.steps.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6014600
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 23,
-            "name": "o destino como \"Dublin\"",
+            "name": "seleciono o destino como \"Dublin\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 10764999
             }
           },
           {
@@ -491,8 +509,8 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 364716800
             }
           },
           {
@@ -504,44 +522,47 @@
               "location": "steps\\comprar_passagem.steps.js:92"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 38346699
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "verifico se a URL contem \"reserve\"",
+            "name": "verifico se a url contem \"reserve\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2149199
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 27,
-            "name": "selecino o voo\"12\" da companhia \"Virgin America\"",
+            "name": "seleciono o voo \"12\" da companhia \"Virgin America\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:51"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 351089899
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 28,
-            "name": "verifico se a URL contem \"purchase\"",
+            "name": "verifico se a url contem \"purchase\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 39584499
             }
           },
           {
@@ -553,34 +574,34 @@
               "location": "steps\\comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8256199
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 30,
-            "name": "seleciono a bandeira do cartão como \"American Express\"",
+            "name": "seleciono a bandeira do cartao como \"American Express\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:61"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5949599
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 31,
-            "name": "marco a opçao \"Remmember me\"",
+            "name": "marco a opcao \"Remmember me\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 37822300
             }
           },
           {
@@ -592,18 +613,21 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 355232299
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 33,
-            "name": "cerifico se a URL contem \"confirmation\"",
+            "name": "verifico se a url contem \"confirmation\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 40047600
             }
           },
           {
@@ -615,21 +639,21 @@
               "location": "steps\\comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2701100
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 35,
-            "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "name": "se contem a informacao \"Amount\" como \"555\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:83"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2963100
             }
           },
           {
@@ -637,7 +661,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 186000
+              "duration": 47719300
             }
           }
         ],
@@ -655,9 +679,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 153599,
-              "error_message": "ReferenceError: browser is not defined\n    at Base.abrir_browser (C:\\Iterasys\\BlazeDemo147Adv\\support\\base.js:12:30)\n    at Base.<anonymous> (C:\\Iterasys\\BlazeDemo147Adv\\support\\hooks.js:19:16)"
+              "status": "passed",
+              "duration": 155595100
             }
           },
           {
@@ -669,8 +692,8 @@
               "location": "steps\\comprar_passagem.steps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1056080399
             }
           },
           {
@@ -682,18 +705,21 @@
               "location": "steps\\comprar_passagem.steps.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5795299
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 23,
-            "name": "o destino como \"New York\"",
+            "name": "seleciono o destino como \"New York\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:21"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 8706000
             }
           },
           {
@@ -705,8 +731,8 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 378846600
             }
           },
           {
@@ -718,44 +744,47 @@
               "location": "steps\\comprar_passagem.steps.js:92"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 39157600
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 26,
-            "name": "verifico se a URL contem \"reserve\"",
+            "name": "verifico se a url contem \"reserve\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2055099
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 27,
-            "name": "selecino o voo\"4346\" da companhia \"Lufthansa\"",
+            "name": "seleciono o voo \"4346\" da companhia \"Lufthansa\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:51"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 328477600
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 28,
-            "name": "verifico se a URL contem \"purchase\"",
+            "name": "verifico se a url contem \"purchase\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 26951299
             }
           },
           {
@@ -767,34 +796,34 @@
               "location": "steps\\comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9894700
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 30,
-            "name": "seleciono a bandeira do cartão como \"Diner's Club\"",
+            "name": "seleciono a bandeira do cartao como \"Diner's Club\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:61"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7602800
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 31,
-            "name": "marco a opçao \"Remmember me\"",
+            "name": "marco a opcao \"Remmember me\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 54886899
             }
           },
           {
@@ -806,18 +835,21 @@
               "location": "steps\\comprar_passagem.steps.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 352001400
             }
           },
           {
             "arguments": [],
             "keyword": "Entao ",
             "line": 33,
-            "name": "cerifico se a URL contem \"confirmation\"",
+            "name": "verifico se a url contem \"confirmation\"",
+            "match": {
+              "location": "steps\\comprar_passagem.steps.js:46"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 39435399
             }
           },
           {
@@ -829,21 +861,21 @@
               "location": "steps\\comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2739700
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 35,
-            "name": "se contem a informaçao \"Amount\" com \"555\"",
+            "name": "se contem a informacao \"Amount\" como \"555\"",
             "match": {
               "location": "steps\\comprar_passagem.steps.js:83"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3489600
             }
           },
           {
@@ -851,7 +883,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 175200
+              "duration": 51690499
             }
           }
         ],

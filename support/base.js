@@ -7,9 +7,11 @@ const ConfirmationPage = require('../pages/confirmation.page');
 
 class Base {
     async abrir_browser() {
-        const browser_name = process.env.BROWSER || 'chromium';
+       
         const browsers = { chromium, firefox, webkit }
-        this.browser = await browser[browser_name].launch({ headless: process.env.HEADLESS !== 'false' });
+        const browser_name = process.env.BROWSER || 'chromium';
+
+        this.browser = await browsers[browser_name].launch({ headless: process.env.HEADLESS !== 'false' });
         this.context = await this.browser.newContext({ baseURL: 'https://www.blazedemo.com' });
         this.page = await this.context.newPage();
 
