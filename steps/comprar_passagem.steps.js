@@ -8,7 +8,9 @@ const { expect } = require('@playwright/test');
 // import ConfirmationPage from '../pages/confirmation.page';
 
 Given('que estou no site Blazedemo', async function (){
-    await this.page.goto(this.homePage.url);                   // abre o browser neste endereço 
+    await this.page.goto(this.homePage.url);  
+    const screenshot = await this.page.screenshot({fullPage: true}); // captura um screenshot
+    await this.attach(screenshot, 'image/png'); // anexa o screenshot ao relatório do Cucumber
     await this.homePage.verificar_mensagem_boas_vindas(); // confirma se aparece a mensagem inicial  
 });
 
@@ -20,6 +22,8 @@ When('seleciono a origem como {string}', async function (origem) {
 
 When('seleciono o destino como {string}', async function (destino) {
     await this.homePage.selecionar_destino(destino);
+    const screenshot = await this.page.screenshot({fullPage: true}); // captura um screenshot
+    await this.attach(screenshot, 'image/png'); // anexa o screenshot ao relatório do Cucumber
 });
 
 // versão que clica no botão a partir do texto escrito no botão

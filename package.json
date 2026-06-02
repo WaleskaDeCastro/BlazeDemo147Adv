@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:bdd": "cucumber-js features/**/*.feature --require steps/**/*.steps.js --require support/**/*.js --format json:reports/cucumber_report.json",
+    "test:bdd": "cucumber-js",
+    "test:bdd:paralelo": "cucumber-js -p paralelo",
     "test:bdd:headed": "cross-env HEADLESS=false npm run test:bdd",
     "report": "node generate_report.js"
   },
